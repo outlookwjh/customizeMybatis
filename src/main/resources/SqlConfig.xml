@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <environments default="mybatis">
+        <environment id="mybatis">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="username" value="wangjianhong"/>
+                <property name="password" value="wjh"/>
+                <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
+                <property name="url" value="jdbc:oracle:thin:@192.168.59.131:1521:orcl"/>
+
+
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--  xml配置开发
+    <mappers >
+        <mapper resource="com/demo/dao/IareaDao.xml"></mapper>
+    </mappers>-->
+
+
+    <!--注解开发-->
+    <mappers>
+        <mapper class="com.demo.dao.IareaDao"></mapper>
+    </mappers>
+
+
+</configuration>
+
