@@ -16,13 +16,13 @@
 
     <!--  xml配置开发
     <mappers >
-        <mapper resource="com/demo/dao/IareaDao.xml"></mapper>
+        <mapper resource="com/testinstance/dao/IareaDao.xml"></mapper>
     </mappers>-->
 
 
     <!--注解开发-->
     <mappers>
-        <mapper class="com.demo.dao.IareaDao"></mapper>
+        <mapper class="com.testinstance.dao.IareaDao"></mapper>
     </mappers>
 
 

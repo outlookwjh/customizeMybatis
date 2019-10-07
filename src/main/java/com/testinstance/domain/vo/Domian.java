@@ -1,4 +1,4 @@
-package com.demo.domain.vo;
+package com.testinstance.domain.vo;
 
 public class Domian {
 

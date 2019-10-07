@@ -1,7 +1,7 @@
-package com.demo;
+package com.testinstance;
 
-import com.demo.dao.IareaDao;
-import com.demo.domain.vo.Domian;
+import com.testinstance.dao.IareaDao;
+import com.testinstance.domain.vo.Domian;
 import com.demo.io.Resources;
 import com.demo.session.SqlSession;
 import com.demo.session.SqlSessionFactory;

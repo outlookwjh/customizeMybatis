@@ -126,7 +126,7 @@ public class XMLResovler {
                     mapper.setResultType(resultType);
                     mapper.setSql(sqltext);
                 }
-                Class<?> classname = method.getDeclaringClass();
+                String classname = method.getDeclaringClass().getName();
                 String methodN = method.getName();
                 String key = classname+"."+methodN;
                 mappers.put(key,mapper);

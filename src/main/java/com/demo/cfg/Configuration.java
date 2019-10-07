@@ -1,8 +1,13 @@
 package com.demo.cfg;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Configuration {
+
+    public Configuration(){
+        this.mapper = new HashMap<String, Mapper>();
+    }
 
     private String username;
 
